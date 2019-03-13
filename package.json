@@ -1,0 +1,12 @@
+{
+  "name": "cloud-debugger-test",
+  "scripts": {
+    "jsapp": "ts-node src/jsapp.js",
+    "tsapp": "node src/tsapp.ts"
+  },
+  "dependencies": {
+    "@google-cloud/debug-agent": "3.0.1",
+    "ts-node": "8.0.3",
+    "typescript": "3.3.3333"
+  }
+}
